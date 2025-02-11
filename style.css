@@ -18,11 +18,8 @@
     --text-secodary: #fff;
 }
 
-html, body {
-    overflow-x: hidden;
-}
-
 body{
+    overflow-x: hidden;
     background-color: #FCED97;
 }
 
@@ -33,10 +30,14 @@ h1{
 }
 
 header{
+    position: sticky;
+    top: 0;
+    left: 0;
     background-color: var(--primary);
     display: flex;
     justify-content: space-between;
-    padding: 5px
+    padding: 5px;
+    z-index: 1000;
 }
 
 button{
