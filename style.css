@@ -13,7 +13,7 @@
 :root {
     --primary: #FFA50A;
     --secondary: #0032D7;
-    --back: #FCED97
+    --back: #FCED97;
     --text-color: #000;
     --text-secodary: #fff;
 }
@@ -139,4 +139,89 @@ footer{
 footer h2{
     position: relative;
     left: 35%;
+}
+
+/* mobile */
+@media (max-width: 450px){
+    html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }    
+
+    * {
+        box-sizing: border-box;
+        max-width: 100%;
+    }
+
+    header{
+        width: 100%;
+    }
+
+    h1{
+        font-size: 1.5em;
+    }
+
+    button{
+        width: 30%;
+        font-size: 0.75em;
+    }
+
+    .livro img{
+        width: 30%;
+        height: 30%;
+        left: 0;
+    }
+
+    .livro, .gohan, .goku{
+        width: 100%;
+    }
+
+    .div-livro h2{
+        width: 100%;
+        font-size: 1.5em;
+        top: 2%;
+    }
+
+    .div-livro p{
+        width: 100%;
+        font-size: 0.5em;
+        top: 2%;
+    }
+
+    .goku{
+        flex-direction: column;
+    }
+
+    .goku img{
+        min-width: 70%;
+        position: relative;
+        left: 15%;
+    }
+
+    .div-goku, .div-gohan{
+        position: relative;
+        top: -10%;
+        left: 6%;
+        min-width: 88%;
+    }
+
+    .div-goku p, .gohan p{
+        font-size: 0.75em;
+    }
+
+    .gohan img{
+        display: none;
+    }
+    
+    footer{
+        margin: 10px 0 0 0;
+    }
+
+    footer h2{
+        font-size: 0.80em;
+        position: relative;
+        left: 20%;
+    }
 }
