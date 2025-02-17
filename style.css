@@ -155,6 +155,10 @@ footer h2{
         max-width: 100%;
     }
 
+    .gohan p, .goku p{
+        text-align: center;
+    }
+
     header{
         width: 100%;
     }
@@ -194,7 +198,7 @@ footer h2{
         flex-direction: column;
     }
 
-    .goku img{
+    .goku img, .gohan img{
         min-width: 70%;
         position: relative;
         left: 15%;
@@ -211,10 +215,10 @@ footer h2{
         font-size: 0.75em;
     }
 
-    .gohan img{
-        display: none;
+    .gohan{
+        flex-direction: column;
     }
-    
+
     footer{
         margin: 10px 0 0 0;
     }
