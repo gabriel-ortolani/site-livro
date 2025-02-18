@@ -49,7 +49,7 @@ header{
     right: 2%;
 }
 
-.ja{
+.ja:hover{
     background-color: #012cb9;
 }
 
@@ -206,6 +206,11 @@ footer h2{
 
 .txt.ativo3{
     animation: mexer 0.5s ease-in-out 1;
+}
+
+#antes:hover, #depois:hover {
+    background-color: var(--primary);
+    color: var(--text-secodary);
 }
 
 /* mobile */
