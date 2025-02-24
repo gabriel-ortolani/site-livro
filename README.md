@@ -21,4 +21,20 @@
  mobile:<br>
  <img width="241" alt="site mobile" src="https://github.com/user-attachments/assets/0944cbf3-6b7a-4e1d-a362-78bad2c40445" />
 
+ ## Implementação do java script(JS)
+ Como estamos aprendedo sobre o js ainda fizemos uma atividade para "trocar" paginas caso queira ver basta clickar <a href="https://github.com/gabriel-ortolani/introducao_js/tree/main/Projeto">aqui</a>. Apos realizamos essa atividade foi proposto que adicionasemos o que foi encinado nesse projeto que tinhamos feito anteriormente
+ Para essa funcionalidade foi nessesario colocar "setas" que apos clickar muda-se o número do volume, a foto e a descrição do mesmo.
+
+ Desktop:<br>
+ <img width="946" alt="image" src="https://github.com/user-attachments/assets/5bd15536-7d80-45f6-90d8-8964a24f14ab" />
+ <img width="949" alt="image" src="https://github.com/user-attachments/assets/f3a23ba2-f0f0-4783-9e6f-8f556d5acb0a" /><br>
+
+ Mobile<br>
+ <img width="242" alt="image" src="https://github.com/user-attachments/assets/1b403d6f-b2b3-4e72-a5be-a180014ad6a1" />
+ <img width="239" alt="image" src="https://github.com/user-attachments/assets/9578b675-b46a-47f2-81c5-5db249ee9b04" />
+
+
+
+
+
  
